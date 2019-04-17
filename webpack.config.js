@@ -4,7 +4,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'index.js',
-        library: '',
+        library: 'PMT',
         libraryTarget: 'commonjs',
         libraryExport: 'default'
     },
@@ -14,7 +14,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                exclude: /node_modules|dist/,
+                exclude: /node_modules/,
                 use: [
                     {
                         loader: 'babel-loader',

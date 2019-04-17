@@ -1,2 +1,1 @@
-const pmt = require('./lib/pmt')
-module.exports = pmt
+export { default } from './pmt'

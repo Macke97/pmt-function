@@ -618,11 +618,6 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@marcusthelin/pmt@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@marcusthelin/pmt/-/pmt-1.1.0.tgz#25daa4d8a0d41fe4b62a91d248fbf5dd326d5037"
-  integrity sha512-cabhQY9545ERQ95fDJMsuGqeMexu40Z4k/V5+tGU2FhslgHP4aXtw/PjIZy5zcKSmpHNEYE+Zd2V8Lv+jOBv6A==
-
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
