@@ -1,1 +1,1 @@
-module.exports = require('./dist/pmt')
+module.exports = require('./dist').default

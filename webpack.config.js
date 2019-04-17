@@ -3,18 +3,24 @@ const path = require('path')
 module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'pmt.js'
+        filename: 'index.js',
+        library: '',
+        libraryTarget: 'commonjs',
+        libraryExport: 'default'
     },
+    target: 'node',
+    mode: 'production',
     module: {
         rules: [
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
+                exclude: /node_modules|dist/,
                 use: [
                     {
                         loader: 'babel-loader',
                         options: {
-                            presets: ['@babel/preset-env']
+                            presets: ['@babel/preset-env'],
+                            plugins: ['add-module-exports']
                         }
                     }
                 ]
