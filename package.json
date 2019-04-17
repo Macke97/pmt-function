@@ -1,6 +1,6 @@
 {
   "name": "@marcusthelin/pmt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple PMT function",
   "main": "lib/pmt.js",
   "repository": "https://github.com/Macke97/pmt-function.git",
