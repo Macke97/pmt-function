@@ -1,0 +1,9 @@
+{
+  "name": "@marcusthelin/pmt",
+  "version": "1.0.0",
+  "description": "Simple PMT function",
+  "main": "lib/pmt.js",
+  "repository": "https://github.com/Macke97/pmt-function.git",
+  "author": "Marcus Thelin <marcusthelin97@gmail.com>",
+  "license": "MIT"
+}
