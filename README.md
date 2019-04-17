@@ -1,6 +1,6 @@
 # PMT
 Simple PMT function. 
-Credit to [Tobibas Lanz](https://stackoverflow.com/users/7354661/tobias-lanz) @StackOverflow
+Credit to [Tobias Lanz](https://stackoverflow.com/users/7354661/tobias-lanz) @StackOverflow
 
 ## Options
 
