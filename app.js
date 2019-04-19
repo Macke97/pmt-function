@@ -13,7 +13,7 @@ const type = 1
 
 const pmtVal = pmt(interestRate, months, presentVal, futureVal, type, {
     round: true,
-    negative: false
+    positive: true
 })
 
 console.log(pmtVal)

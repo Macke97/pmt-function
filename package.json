@@ -1,13 +1,14 @@
 {
   "name": "@marcusthelin/pmt",
-  "version": "1.1.3",
-  "description": "Simple PMT function",
-  "main": "lib/pmt.js",
+  "version": "1.1.4",
+  "description": "Simple PMT function with options",
+  "main": "index.js",
   "repository": "https://github.com/Macke97/pmt-function.git",
   "author": "Marcus Thelin <marcusthelin97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepublish": "webpack"
   },
   "files": [
     "dist",

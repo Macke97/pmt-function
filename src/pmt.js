@@ -1,6 +1,6 @@
 const defaultOptions = {
     round: false,
-    negative: false
+    positive: false
 }
 export default (monthlyRate, monthlyPayments, presentValue, residualValue, advancedPayments, options = defaultOptions) => {
     /**
@@ -12,7 +12,7 @@ export default (monthlyRate, monthlyPayments, presentValue, residualValue, advan
      * @param {object} options - Options. See defaultOptions for available options
      */
     const roundResult = options.round || false
-    const returnNegative = options.negative || false
+    const returnPositive = options.positive || false
     const t1 = 1 + monthlyRate
     const t2 = Math.pow(t1, monthlyPayments)
     const t3 = Math.pow(t1, (monthlyPayments - advancedPayments))
@@ -21,7 +21,7 @@ export default (monthlyRate, monthlyPayments, presentValue, residualValue, advan
         pmt = Math.round(pmt);
     }
 
-    if (returnNegative) {
+    if (!returnPositive) {
         pmt = pmt * -1
     }
     return pmt
